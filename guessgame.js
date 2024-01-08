@@ -6,7 +6,7 @@
  * numeroa kunnes hän arvaa oikein. Pelin voi myös aloittaa
  * alusta.
  *
- * Tehtävän maksimimistemäärä on 20p>
+ * Tehtävän maksimimistemäärä on 20p
  */
 
 /*
@@ -71,6 +71,14 @@ guessButton.addEventListener("click", function (event) {
  */
 function guessNumber() {
   console.log("Guess made");
+
+  /*
+   * Suosittelemme käyttämään switch/case rakennetta
+   * tässä tehtävässä, mutta voit käyttää myös if-else
+   * ketjua
+   *
+   * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch
+   */
 }
 
 /*

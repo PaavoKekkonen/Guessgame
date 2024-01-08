@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- HTML-koodia ei tarvitse muuttaa tässä harjoituksessa (ellet tahdo) -->
     <meta name="description" content="Arvauspeli" />
     <meta name="keywords" content="arvauspeli, peli, numero" />
     <meta charset="UTF-8" />
@@ -12,9 +11,10 @@
   <body>
     <a class="back" href="../index.html">&lsaquo;</a>
     <div id="app">
-      <h1>Arvaa numero!</h1>
+      <h1>Arvaa numero välillä _arvausväli_!</h1>
+      <!-- määritä itse _arvausväli_ ja kerro se käyttäjälle tässä -->
       <input id="guess" type="text" />
-      <div class="button" id="guessButton">Arvaa</div>
+      <button class="button" id="guessButton">Arvaa</button>
       <div id="feedback"></div>
       <div class="start-over" id="resetButton">Aloita alusta</div>
       <script type="text/javascript" src="guessgame.js"></script>
