@@ -6,7 +6,7 @@
  * numeroa kunnes hän arvaa oikein. Pelin voi myös aloittaa
  * alusta.
  *
- * Tehtävän maksimimistemäärä on 20p
+ * Tehtävän maksimimistemäärä on 10p
  */
 
 /*
