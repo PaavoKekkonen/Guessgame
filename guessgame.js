@@ -26,6 +26,9 @@
  * muihin funktioihin.
  */
 
+// val , var , const .. mites ne muuttujat nyt menikään? ja tähän varmaan nyt joku null tai jotain ennen kuin päästään arpomaan
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
+
 /* Start-funktiota kutsutaan heti kun sivu ladataan, mutta
  * numeromuuttuja on alustettava ennen tätä.
  */
