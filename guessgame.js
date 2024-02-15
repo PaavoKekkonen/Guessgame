@@ -30,7 +30,7 @@
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
 
 /* Start-funktiota kutsutaan heti kun sivu ladataan, mutta
- * numeromuuttuja on alustettava ennen tätä.
+ * Start-funktio määritellään myöhemmin.
  */
 start();
 
@@ -40,7 +40,7 @@ start();
  * Math.random() on hyvä tapa tuottaa satunnaislukuja,
  * ja esimerkiksi Math.floor() on helppo tapa muodostaa
  * desimaaliluvusta kokonaisluku jättämällä desimaalit
- * pois.
+ * pois tai Math-round(), joka pyöristää lähimpään kokonaislukuun.
  */
 function start() {
   console.log("Start");
