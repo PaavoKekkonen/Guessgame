@@ -2,7 +2,7 @@
 
 ## Tehtävänanto
 
-Tee ohjelma, joka arpoo luvun väliltä 1-10 ( tai 1-100, tai -30 + 30, päätä ite!) ja kysyy käyttäjältä arvausta. ( Kerro kuitenkin pelaajalle, miltä väliltä. ) Jos käyttäjä arvaa oikein, ohjelma tulostaa "Oikein!" ja lopettaa. Jos käyttäjä arvaa väärin, ohjelma tulostaa "Väärin!" ja arpoo uuden luvun. Ohjelma jatkuu, kunnes käyttäjä arvaa oikein. (Jos "oikein"/"väärin" tuntuu tylsältä, laita ohjelma huastelemmaan savoksi, kommunikoimaan emojeilla, väreillä, äänillä tai miten ikinä — mutta kiinnitä kuitenkin huomiota käytettävyyteen. )
+Tee ohjelma, joka arpoo luvun väliltä 1-10 ( tai 1-100, tai -30 + 30, päätä ite!) ja kysyy käyttäjältä arvausta. ( Kerro kuitenkin pelaajalle, miltä väliltä. ) Jos käyttäjä arvaa oikein, ohjelma tulostaa "Oikein!" ja lopettaa. Jos käyttäjä arvaa väärin, ohjelma tulostaa "Väärin!" Ohjelma jatkuu, kunnes käyttäjä arvaa oikein. (Jos "oikein"/"väärin" tuntuu tylsältä, laita ohjelma huastelemmaan savoksi, kommunikoimaan emojeilla, väreillä, äänillä tai miten ikinä — mutta kiinnitä kuitenkin huomiota käytettävyyteen. )
 
 ## Kehitys
 
