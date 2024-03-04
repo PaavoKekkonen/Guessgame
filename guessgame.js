@@ -41,16 +41,17 @@ function guessNumber() {
   if (guess > 0 && guess <= 10) {
     switch (true) {
       case guess < number:
-        feedback.innerHTML = "Isompi";
+        feedback.innerHTML = "Väärin! Kokeile vähän isompaa numeroa.";
         feedback.className = 'too-small';
         break;
       case guess > number:
-        feedback.innerHTML = "Pienempi";
+        feedback.innerHTML = "Väärin! Kokeile vähän pienempää numeroa.";
         feedback.className = 'too-big';
         break;
       case guess === number:
-        feedback.innerHTML = "Arvasit oikein!";
+        feedback.innerHTML = "Oikein!";
         feedback.className = 'correct';
+        epicConfetti();
         guessButton.disabled = true;
         guessInput.disabled = true;
         break;
@@ -76,4 +77,46 @@ function reset() {
   guessInput.disabled = false;
 
   start();
+}
+
+const count = 200,
+  defaults = {
+    origin: { y: 0.7 },
+  };
+
+function fire(particleRatio, opts) {
+  confetti(
+    Object.assign({}, defaults, opts, {
+      particleCount: Math.floor(count * particleRatio),
+    })
+  );
+}
+
+function epicConfetti() {
+  fire(0.25, {
+    spread: 26,
+    startVelocity: 55,
+  });
+  
+  fire(0.2, {
+    spread: 60,
+  });
+  
+  fire(0.35, {
+    spread: 100,
+    decay: 0.91,
+    scalar: 0.8,
+  });
+  
+  fire(0.1, {
+    spread: 120,
+    startVelocity: 25,
+    decay: 0.92,
+    scalar: 1.2,
+  });
+  
+  fire(0.1, {
+    spread: 120,
+    startVelocity: 45,
+  });
 }
