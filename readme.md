@@ -2,7 +2,7 @@
 
 ## Kuvaus
 
-Ohjelma, joka arpoo luvun väliltä 1-10 ( tai 1-100, tai -30 + 30, päätä ite!) ja kysyy käyttäjältä arvausta. Jos käyttäjä arvaa oikein, ohjelma tulostaa "Oikein!" ja lopettaa. Jos käyttäjä arvaa väärin, ohjelma tulostaa "Väärin!" Ohjelma jatkuu, kunnes käyttäjä arvaa oikein.
+Ohjelma, joka arpoo luvun väliltä 1-10 ja kysyy käyttäjältä arvausta. Jos käyttäjä arvaa oikein, ohjelma tulostaa "Oikein!" ja lopettaa. Jos käyttäjä arvaa väärin, ohjelma tulostaa "Väärin!" Ohjelma jatkuu, kunnes käyttäjä arvaa oikein.
 
 ## Ohjelman vähimmäisvaatimukset
 
