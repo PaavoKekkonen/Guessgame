@@ -13,7 +13,3 @@ Ohjelma, joka arpoo luvun väliltä 1-10 ( tai 1-100, tai -30 + 30, päätä ite
 - Informoi käyttäjää oikeasta ja väärästä vastauksesta (tehty)
 - Aloita alusta -nappi tyhjentää pelin ja arpoo uuden numeron arvattavaksi (tehty)
 - Peliä voi pelata myös näppäimistöllä. (tehty)
-
-## Palautus
-
-A+:aan
