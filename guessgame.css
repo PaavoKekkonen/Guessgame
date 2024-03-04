@@ -78,6 +78,7 @@ input {
   margin-top: 15px;
   font-size: 20px;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 #feedback {
@@ -86,12 +87,6 @@ input {
   margin-top: 10px;
   font-size: 20px;
 }
-
-/* 
- * voit käyttää näitä luokkia
- * ilmaisemaan liian pieniä tai
- * liian isoja arvauksia
- */
 
 .too-small {
   color: #f03f3f;
