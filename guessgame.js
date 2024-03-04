@@ -2,13 +2,15 @@
 
 let number;
 
-let guesses = 0;
+let guesses;
 
 start();
 
 function start() {
   console.log("Start");
   number = Math.floor(Math.random() * 10 + 1)
+  guesses = 0;
+  
   feedback.innerHTML = "";
   document.querySelector("#guess").value = '';
   document.querySelector("#guesses").innerHTML = `Arvausten määrä: ${guesses}`;
