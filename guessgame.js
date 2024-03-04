@@ -2,6 +2,8 @@
 
 let number;
 
+let guesses = 0;
+
 start();
 
 function start() {
@@ -9,6 +11,7 @@ function start() {
   number = Math.floor(Math.random() * 10 + 1)
   feedback.innerHTML = "";
   document.querySelector("#guess").value = '';
+  document.querySelector("#guesses").innerHTML = `Arvausten määrä: ${guesses}`;
 }
 
 const guessButton = document.querySelector("#guessButton");
@@ -43,14 +46,17 @@ function guessNumber() {
       case guess < number:
         feedback.innerHTML = "Väärin! Kokeile vähän isompaa numeroa.";
         feedback.className = 'too-small';
+        guesses++;
         break;
       case guess > number:
         feedback.innerHTML = "Väärin! Kokeile vähän pienempää numeroa.";
         feedback.className = 'too-big';
+        guesses++;
         break;
       case guess === number:
         feedback.innerHTML = "Oikein!";
         feedback.className = 'correct';
+        guesses++;
         epicConfetti();
         guessButton.disabled = true;
         guessInput.disabled = true;
@@ -63,6 +69,7 @@ function guessNumber() {
   else {
     document.querySelector("#feedback").innerHTML = "Anna numero väliltä 1-10";
   }
+  document.querySelector("#guesses").innerHTML = `Arvausten määrä: ${guesses}`;
 }
 
 const resetButton = document.querySelector("#resetButton");

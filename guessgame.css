@@ -88,6 +88,13 @@ input {
   font-size: 20px;
 }
 
+#guesses {
+  width: 200px;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
 .too-small {
   color: #f03f3f;
 }
